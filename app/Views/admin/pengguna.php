@@ -100,7 +100,7 @@
               <th class="p-6 font-bold text-lg rounded-tl-xl">No</th>
               <th class="p-6 font-bold text-lg">Username</th>
               <th class="p-6 font-bold text-lg">Role</th>
-              <th class="p-6 font-bold text-lg">Status</th>
+              <!-- <th class="p-6 font-bold text-lg">Status</th> -->
               <th class="p-6 font-bold text-lg text-center rounded-tr-xl">Aksi</th>
             </tr>
           </thead>
@@ -165,11 +165,6 @@
           <td class="p-6">
             <span class="px-5 py-2 rounded-full text-white font-bold text-lg ${u.role === 'admin' ? 'bg-purple-600' : 'bg-blue-600'}">
               ${u.role.toUpperCase()}
-            </span>
-          </td>
-          <td class="p-6">
-            <span class="px-4 py-2 rounded-full text-white font-bold ${u.username === JSON.parse(localStorage.getItem('currentUser')).username ? 'bg-green-600' : 'bg-gray-500'}">
-              ${u.username === JSON.parse(localStorage.getItem('currentUser')).username ? 'Sedang Login' : 'Offline'}
             </span>
           </td>
           <td class="p-6 text-center space-x-4">

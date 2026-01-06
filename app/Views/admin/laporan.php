@@ -342,7 +342,7 @@
       const tbody = document.getElementById('report-table');
       tbody.innerHTML = pageData.length ? pageData.map((t, i) => {
         const globalIdx = startIdx + i;
-        const kasir = window.allUsers[t.userId]?.username || 'Unknown';
+        const kasir = window.allUsers[t.userId]?.username || 'admin';
         return `
           <tr class="border-b hover:bg-gray-50 transition">
             <td class="p-6 font-mono text-lg font-bold">#${t.id}</td>
