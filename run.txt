@@ -1,0 +1,5 @@
+# Terminal 1 (wajib di folder proyek)
+php -S localhost:8000
+
+# Terminal 2
+firebase emulators:start --only database
