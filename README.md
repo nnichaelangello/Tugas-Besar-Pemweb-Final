@@ -28,14 +28,13 @@
 
 <div align="center">
 
-| No | Nama                          | NIM         | Peran Utama                  |
-|----|-------------------------------|-------------|------------------------------|
-| 1  | Michael Angello Qadosy Riyadi                | 1202230014   | Full-stack Developer & UI    |
-| 2  | Muhamad Fachri Putranami              | 1202230064   | Logic           |
-| 3  | [Nama Anggota 3]              | 123210003   | Frontend & Responsiveness    |
-| 4  | [Nama Anggota 4]              | 123210004   | Dokumentasi & Testing        |
-
-*Silakan ganti nama, NIM, dan peran sesuai tim Anda*
+| No | Nama                          | NIM         | 
+|----|-------------------------------|-------------|
+| 1  | Michael Angello Qadosy Riyadi                | 1202230014   | 
+| 2  | Muhamad Fachri Putranami              | 1202230064   | 
+| 3  | Daffa Farrel Giovany              | 1202230040   | 
+| 4  | Gia Berlian Carmana              | 103092400023   |
+| 5  | Muhammad Fauzan Ramadhana              | 103092400012   |
 
 </div>
 
